@@ -15,7 +15,7 @@ void main() {
 
 	printf("Enter operation number: ");
 	scanf_s("%1o", &inputNum);
-	
+	printf("Welcome to 2023");
 
 	switch (inputNum)
 	{
@@ -45,6 +45,6 @@ void add() {
 	scanf_s("%lf", &num2);
 	printf("Enter the third value:");
 	scanf_s("%lf", &num3);
-	result = num1 + num2+num3;
-	printf("%lf + %lf = %lf\n", num1, num2,num3, result);
+	result =num1+num2+num3;
+	printf("%lf + %lf + %lf = %lf\n", num1, num2,num3, result);
 }
