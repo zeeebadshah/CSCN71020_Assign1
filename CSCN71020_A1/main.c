@@ -46,5 +46,5 @@ void add() {
 	printf("Enter the third value:");
 	scanf_s("%lf", &num3);
 	result = num1 + num2+num3;
-	printf("%lf + %lf = %lf\n", num1, num2, result);
+	printf("%lf + %lf = %lf\n", num1, num2,num3, result);
 }
